@@ -1,0 +1,95 @@
+[
+    {
+        "url": "http://127.0.0.1:8000",
+        "test_cases": [
+            {
+                "test_case": "login",
+                "description": "login dengan data yang benar",
+                "selector_input": {
+                    "username": "name",
+                    "password": "name"
+                },
+                "button_selector": {
+                    "button_name": "Submit",
+                    "button_type": "name"
+                },
+                "expected_result": {
+                    "expected_selector": "success_message",
+                    "expected_value": "Login Success",
+                    "url": "http://127.0.0.1:8000/app"
+                },
+                "input_action": {
+                    "username": "IraHumanitas",
+                    "password": "1212123"
+                },
+                "actual_data": {
+                    "username": "IraHumanitas",
+                    "password": "1212123"
+                }
+            },
+            {
+                "test_case": "login",
+                "description": "Input dengan username yang salah",
+                "selector_input": {
+                    "username": "name",
+                    "password": "name"
+                },
+                "button_selector": {
+                    "button_name": "Submit",
+                    "button_type": "name"
+                },
+                "expected_result": {
+                    "expected_selector": "error_message",
+                    "expected_value": "Username atau Password salah!",
+                    "url": "http://127.0.0.1:8000"
+                },
+                "input_action": {
+                    "username": "represent",
+                    "password": "leader"
+                }
+            },
+            {
+                "test_case": "login",
+                "description": "Input dengan password yang salah",
+                "selector_input": {
+                    "username": "name",
+                    "password": "name"
+                },
+                "button_selector": {
+                    "button_name": "Submit",
+                    "button_type": "name"
+                },
+                "expected_result": {
+                    "expected_selector": "error_message",
+                    "expected_value": "Username atau Password salah!",
+                    "url": "http://127.0.0.1:8000"
+                },
+                "input_action": {
+                    "username": "education",
+                    "password": "onto"
+                }
+            },
+            {
+                "test_case": "login",
+                "description": "Input semua data salah",
+                "selector_input": {
+                    "username": "name",
+                    "password": "name"
+                },
+                "button_selector": {
+                    "button_name": "Submit",
+                    "button_type": "name"
+                },
+                "expected_result": {
+                    "expected_selector": "error_message",
+                    "expected_value": "Username atau Password salah!",
+                    "url": "http://127.0.0.1:8000"
+                },
+                "input_action": {
+                    "username": "price",
+                    "password": "increase"
+                }
+            }
+        ]
+    }
+]
