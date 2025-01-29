@@ -1,36 +1,43 @@
-from utils.web_driver import get_webdriver
-from tests.login import run_login_test
-from tests.regist import run_regist_test
-from tests.create import run_create_test
-from tests.delete import run_delete_test
-from tests.update import run_update_test
 import json
+import os
+import importlib.util
+import sys
 
-def load_test_data():
-    with open('test_cases.json', 'r') as f:
-        return json.load(f)
+def load_test_cases(file_path):
+    with open(file_path, "r") as file:
+        return json.load(file)
 
-def run_tests(test_data, browser_name):
-    driver = get_webdriver(browser_name)
+def run_test_cases_for_url(selected_url, test_data):
+    selected_test_cases = next(item for item in test_data if item['url'] == selected_url)['test_cases']
     
-    for data in test_data:
-        url = data.get("url")
-        for test_case in data["test_cases"]:
-            case_type = test_case.get("test_case")
-            if case_type == "Login":
-                run_login_test(test_case, url, driver)
-            elif case_type == "Registration":
-                run_regist_test(test_case, url, driver)
-            elif case_type == "Create":
-                run_create_test(test_case, url, driver)
-            elif case_type == "Delete":
-                run_delete_test(test_case, url, driver)
-            elif case_type == "Update":
-                run_update_test(test_case, url, driver)
+    for case in selected_test_cases:
+        test_case_name = case['test_case']
+        
+        module_name = f"selenium.testcases.{test_case_name}"
+        module_path = os.path.join(os.getcwd(), 'selenium', 'testcases', f"{test_case_name}.py")
+        
+        if module_path not in sys.path:
+            sys.path.append(module_path)
+        
+        spec = importlib.util.spec_from_file_location(module_name, module_path)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        
+        module.run_tests(selected_url, selected_test_cases)
 
-    driver.quit()
+def main():
+    data_file = "data-driver-test/test_cases.json"  
+    test_data = load_test_cases(data_file)
+    
+    urls = [item['url'] for item in test_data]
+    print("Available URLs to test:")
+    for i, url in enumerate(urls, 1):
+        print(f"{i}. {url}")
+    
+    choice = int(input("Select URL (number): ")) - 1
+    selected_url = urls[choice]
+    
+    run_test_cases_for_url(selected_url, test_data)
 
-if __name__ == '__main__':
-    test_data = load_test_data()
-    browser_name = 'chrome'  
-    run_tests(test_data, browser_name)
+if __name__ == "__main__":
+    main()

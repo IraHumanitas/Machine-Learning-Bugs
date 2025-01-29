@@ -1,0 +1,1066 @@
+[
+    {
+        "URL": "http://localhost/23_Meiza_MyAnimeList/login.php",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "nama": "irahumanitas",
+            "katakunci": "KmRzAirin"
+        },
+        "Status": "Passed",
+        "Jenis Bug": "None",
+        "Prioritas": "Low",
+        "Tanggal/Waktu": "2025-01-29 18:54:49",
+        "Pesan Error": "",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "4.03 seconds",
+        "Ada Bug (False/True)": false,
+        "Expected Result": "Berpindah ke halaman http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+        "log": {
+            "type": "None",
+            "content": "",
+            "details": {
+                "actual_url": "http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"zxx\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Anime Template\">\n    <meta name=\"keywords\" content=\"Anime, unica, creative, html\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <link rel=\"Website Icon\" href=\"img/medeia_png.png\">\n    <title>MyAnim3List</title>\n\n    <!-- Google Font -->\n    <link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;6",
+                "cookies": [
+                    {
+                        "domain": "localhost",
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "bd6fsmoguq7m4cduid96d4vjm1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://localhost/23_Meiza_MyAnimeList/login.php",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "nama": "allow",
+            "katakunci": "KmRzAirin"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 18:54:49",
+        "Pesan Error": "Selector name dengan jenis nama tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.02 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis nama tidak ditemukan.",
+            "details": {
+                "actual_url": "http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"zxx\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Anime Template\">\n    <meta name=\"keywords\" content=\"Anime, unica, creative, html\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <link rel=\"Website Icon\" href=\"img/medeia_png.png\">\n    <title>MyAnim3List</title>\n\n    <!-- Google Font -->\n    <link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;6",
+                "cookies": [
+                    {
+                        "domain": "localhost",
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "bd6fsmoguq7m4cduid96d4vjm1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://localhost/23_Meiza_MyAnimeList/login.php",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "nama": "irahumanitas",
+            "katakunci": "report"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 18:54:49",
+        "Pesan Error": "Selector name dengan jenis nama tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis nama tidak ditemukan.",
+            "details": {
+                "actual_url": "http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"zxx\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Anime Template\">\n    <meta name=\"keywords\" content=\"Anime, unica, creative, html\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <link rel=\"Website Icon\" href=\"img/medeia_png.png\">\n    <title>MyAnim3List</title>\n\n    <!-- Google Font -->\n    <link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;6",
+                "cookies": [
+                    {
+                        "domain": "localhost",
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "bd6fsmoguq7m4cduid96d4vjm1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://localhost/23_Meiza_MyAnimeList/login.php",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "nama": "visit",
+            "katakunci": "I"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 18:54:49",
+        "Pesan Error": "Selector name dengan jenis nama tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis nama tidak ditemukan.",
+            "details": {
+                "actual_url": "http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"zxx\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Anime Template\">\n    <meta name=\"keywords\" content=\"Anime, unica, creative, html\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <link rel=\"Website Icon\" href=\"img/medeia_png.png\">\n    <title>MyAnim3List</title>\n\n    <!-- Google Font -->\n    <link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;6",
+                "cookies": [
+                    {
+                        "domain": "localhost",
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "bd6fsmoguq7m4cduid96d4vjm1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://localhost/23_Meiza_MyAnimeList/login.php",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "nama": "something",
+            "katakunci": "official"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 18:54:49",
+        "Pesan Error": "Selector name dengan jenis nama tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis nama tidak ditemukan.",
+            "details": {
+                "actual_url": "http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"zxx\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Anime Template\">\n    <meta name=\"keywords\" content=\"Anime, unica, creative, html\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <link rel=\"Website Icon\" href=\"img/medeia_png.png\">\n    <title>MyAnim3List</title>\n\n    <!-- Google Font -->\n    <link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;6",
+                "cookies": [
+                    {
+                        "domain": "localhost",
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "bd6fsmoguq7m4cduid96d4vjm1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://localhost/23_Meiza_MyAnimeList/login.php",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "nama": "",
+            "katakunci": "modern"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 18:54:49",
+        "Pesan Error": "Selector name dengan jenis nama tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.02 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis nama tidak ditemukan.",
+            "details": {
+                "actual_url": "http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"zxx\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Anime Template\">\n    <meta name=\"keywords\" content=\"Anime, unica, creative, html\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <link rel=\"Website Icon\" href=\"img/medeia_png.png\">\n    <title>MyAnim3List</title>\n\n    <!-- Google Font -->\n    <link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;6",
+                "cookies": [
+                    {
+                        "domain": "localhost",
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "bd6fsmoguq7m4cduid96d4vjm1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://localhost/23_Meiza_MyAnimeList/login.php",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "nama": "stop",
+            "katakunci": ""
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 18:54:49",
+        "Pesan Error": "Selector name dengan jenis nama tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis nama tidak ditemukan.",
+            "details": {
+                "actual_url": "http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"zxx\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Anime Template\">\n    <meta name=\"keywords\" content=\"Anime, unica, creative, html\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <link rel=\"Website Icon\" href=\"img/medeia_png.png\">\n    <title>MyAnim3List</title>\n\n    <!-- Google Font -->\n    <link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;6",
+                "cookies": [
+                    {
+                        "domain": "localhost",
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "bd6fsmoguq7m4cduid96d4vjm1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://localhost/23_Meiza_MyAnimeList/login.php",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "nama": "",
+            "katakunci": ""
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 18:54:49",
+        "Pesan Error": "Selector name dengan jenis nama tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis nama tidak ditemukan.",
+            "details": {
+                "actual_url": "http://localhost/23_Meiza_MyAnimeList/dashboard.php",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"zxx\"><head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"Anime Template\">\n    <meta name=\"keywords\" content=\"Anime, unica, creative, html\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <link rel=\"Website Icon\" href=\"img/medeia_png.png\">\n    <title>MyAnim3List</title>\n\n    <!-- Google Font -->\n    <link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;6",
+                "cookies": [
+                    {
+                        "domain": "localhost",
+                        "httpOnly": false,
+                        "name": "PHPSESSID",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "bd6fsmoguq7m4cduid96d4vjm1"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "Ira Humanitas",
+            "password": "1212123"
+        },
+        "Status": "Passed",
+        "Jenis Bug": "None",
+        "Prioritas": "Low",
+        "Tanggal/Waktu": "2025-01-29 19:27:01",
+        "Pesan Error": "",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "2.92 seconds",
+        "Ada Bug (False/True)": false,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "None",
+            "content": "",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160821,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImptaUtrU2xCc0tydVdjV3RLQzJsWnc9PSIsInZhbHVlIjoicUdqSTRmRyt1SW1TN25Xaytia3FlWVF5My9Jd2I3N21KOURXNWdQZ2pXLytuV3ZJVFVqN2Z2UkZqTzVpdkN3c2ZrZ1RKOTVWOFJKekJha3pUZkxHVXJ3Qm9sN2Z3cUs2ZU9zWVB3TXFLWjJWUEF1emU0TFRtVjF4cFVGS1lVNmkiLCJtYWMiOiIwZTFiMTA3YmUyYWJkZmZjZjMyMTFmZTUwNGQzMDEwMDdmMjRmNjBkMTg5ZjIyZmY3OWI0ZjU3YzgwYWI0NTQ3IiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160821,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IkVjdVNCRkFKd1ZnY0luSzdVcXUxNHc9PSIsInZhbHVlIjoiNWdIUHRSRVFXMkI5djROVFU5ZFA4a0VOWnB6MitQMURXQVp2cDdOcGJPYkNuYUNNb1VPVFhaZWxpN1crZDNWNktYTEFTMmtJajZiYzh4MERzWXZBakpXaHJPV1lsNXZuVWM4amJvNXorRWlBWGlCb3hRVEJNeVo5QzFxS1M1RlciLCJtYWMiOiIxZDg3ZDAxMDgwMGZiMzdiZGM1ZDlmZmViY2U2OWQ3YTUxN2YyMTIxMDRjNDM0ZGE0ZDY4YmI0MTNiZjlmOTM3IiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "represent",
+            "password": "1212123"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:27:01",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160821,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImptaUtrU2xCc0tydVdjV3RLQzJsWnc9PSIsInZhbHVlIjoicUdqSTRmRyt1SW1TN25Xaytia3FlWVF5My9Jd2I3N21KOURXNWdQZ2pXLytuV3ZJVFVqN2Z2UkZqTzVpdkN3c2ZrZ1RKOTVWOFJKekJha3pUZkxHVXJ3Qm9sN2Z3cUs2ZU9zWVB3TXFLWjJWUEF1emU0TFRtVjF4cFVGS1lVNmkiLCJtYWMiOiIwZTFiMTA3YmUyYWJkZmZjZjMyMTFmZTUwNGQzMDEwMDdmMjRmNjBkMTg5ZjIyZmY3OWI0ZjU3YzgwYWI0NTQ3IiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160821,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IkVjdVNCRkFKd1ZnY0luSzdVcXUxNHc9PSIsInZhbHVlIjoiNWdIUHRSRVFXMkI5djROVFU5ZFA4a0VOWnB6MitQMURXQVp2cDdOcGJPYkNuYUNNb1VPVFhaZWxpN1crZDNWNktYTEFTMmtJajZiYzh4MERzWXZBakpXaHJPV1lsNXZuVWM4amJvNXorRWlBWGlCb3hRVEJNeVo5QzFxS1M1RlciLCJtYWMiOiIxZDg3ZDAxMDgwMGZiMzdiZGM1ZDlmZmViY2U2OWQ3YTUxN2YyMTIxMDRjNDM0ZGE0ZDY4YmI0MTNiZjlmOTM3IiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "Ira Humanitas",
+            "password": "onto"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:27:01",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160821,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImptaUtrU2xCc0tydVdjV3RLQzJsWnc9PSIsInZhbHVlIjoicUdqSTRmRyt1SW1TN25Xaytia3FlWVF5My9Jd2I3N21KOURXNWdQZ2pXLytuV3ZJVFVqN2Z2UkZqTzVpdkN3c2ZrZ1RKOTVWOFJKekJha3pUZkxHVXJ3Qm9sN2Z3cUs2ZU9zWVB3TXFLWjJWUEF1emU0TFRtVjF4cFVGS1lVNmkiLCJtYWMiOiIwZTFiMTA3YmUyYWJkZmZjZjMyMTFmZTUwNGQzMDEwMDdmMjRmNjBkMTg5ZjIyZmY3OWI0ZjU3YzgwYWI0NTQ3IiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160821,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IkVjdVNCRkFKd1ZnY0luSzdVcXUxNHc9PSIsInZhbHVlIjoiNWdIUHRSRVFXMkI5djROVFU5ZFA4a0VOWnB6MitQMURXQVp2cDdOcGJPYkNuYUNNb1VPVFhaZWxpN1crZDNWNktYTEFTMmtJajZiYzh4MERzWXZBakpXaHJPV1lsNXZuVWM4amJvNXorRWlBWGlCb3hRVEJNeVo5QzFxS1M1RlciLCJtYWMiOiIxZDg3ZDAxMDgwMGZiMzdiZGM1ZDlmZmViY2U2OWQ3YTUxN2YyMTIxMDRjNDM0ZGE0ZDY4YmI0MTNiZjlmOTM3IiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "price",
+            "password": "increase"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:27:02",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160821,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImptaUtrU2xCc0tydVdjV3RLQzJsWnc9PSIsInZhbHVlIjoicUdqSTRmRyt1SW1TN25Xaytia3FlWVF5My9Jd2I3N21KOURXNWdQZ2pXLytuV3ZJVFVqN2Z2UkZqTzVpdkN3c2ZrZ1RKOTVWOFJKekJha3pUZkxHVXJ3Qm9sN2Z3cUs2ZU9zWVB3TXFLWjJWUEF1emU0TFRtVjF4cFVGS1lVNmkiLCJtYWMiOiIwZTFiMTA3YmUyYWJkZmZjZjMyMTFmZTUwNGQzMDEwMDdmMjRmNjBkMTg5ZjIyZmY3OWI0ZjU3YzgwYWI0NTQ3IiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160821,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IkVjdVNCRkFKd1ZnY0luSzdVcXUxNHc9PSIsInZhbHVlIjoiNWdIUHRSRVFXMkI5djROVFU5ZFA4a0VOWnB6MitQMURXQVp2cDdOcGJPYkNuYUNNb1VPVFhaZWxpN1crZDNWNktYTEFTMmtJajZiYzh4MERzWXZBakpXaHJPV1lsNXZuVWM4amJvNXorRWlBWGlCb3hRVEJNeVo5QzFxS1M1RlciLCJtYWMiOiIxZDg3ZDAxMDgwMGZiMzdiZGM1ZDlmZmViY2U2OWQ3YTUxN2YyMTIxMDRjNDM0ZGE0ZDY4YmI0MTNiZjlmOTM3IiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "Ira Humanitas",
+            "password": "1212123"
+        },
+        "Status": "Passed",
+        "Jenis Bug": "None",
+        "Prioritas": "Low",
+        "Tanggal/Waktu": "2025-01-29 19:27:31",
+        "Pesan Error": "",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "2.41 seconds",
+        "Ada Bug (False/True)": false,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "None",
+            "content": "",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160850,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IkNvSU9aKzdObDdjd3NTWXVUZ3Q1YVE9PSIsInZhbHVlIjoiajRpQlMxcFZGZFVhczVWYXhFa0dVVGFpc1dBZGRPUWRZaFlrVEhXMzZuZ1diUUxlcytFRjNBZlplcUVCUTl5d01WRm82M3FHdzZDS3pmSWN6MTZSMUxndnk4MnhuZkJkRXpOY2cweUQ5ZmxOT2FIang3ZVh0eW02dkpKQnkwN1AiLCJtYWMiOiI2MmVkY2NhMmEwODczMWQ0NjJjMzE4N2JiZTE0NWRkOTI2N2RkYzQ3NDY2ZTQ4ZTc5MGJkZmViZWJiZWZiOTIyIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160850,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IlM0Y01mYlEyejVWdllBWHg0NFlHMHc9PSIsInZhbHVlIjoiZlQ1QVNTZDhybmlENVZOK3FLK2xRaThHcHlndTBIb3VQZ1pzQVBkT3hYZnI0TkdqMW45VzUyeS9MelFQL2xjR1lGOVdRZHRhaUJ3TE9WTEN4cEFqZzJoQ2c0YzRjV214ZWFwakpRTGpiS1hYSnhzeU9mVjFURldUalowY1VSeW8iLCJtYWMiOiI2NjM0ODIzM2ZlZWI1MDc2OGYyNTZlZjk3MmRmYzQ5OGEzM2U5OTE4OTdlZjg4ODNhNGQ3YmViYjYyZjY4N2JhIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "represent",
+            "password": "1212123"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:27:31",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160850,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IkNvSU9aKzdObDdjd3NTWXVUZ3Q1YVE9PSIsInZhbHVlIjoiajRpQlMxcFZGZFVhczVWYXhFa0dVVGFpc1dBZGRPUWRZaFlrVEhXMzZuZ1diUUxlcytFRjNBZlplcUVCUTl5d01WRm82M3FHdzZDS3pmSWN6MTZSMUxndnk4MnhuZkJkRXpOY2cweUQ5ZmxOT2FIang3ZVh0eW02dkpKQnkwN1AiLCJtYWMiOiI2MmVkY2NhMmEwODczMWQ0NjJjMzE4N2JiZTE0NWRkOTI2N2RkYzQ3NDY2ZTQ4ZTc5MGJkZmViZWJiZWZiOTIyIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160850,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IlM0Y01mYlEyejVWdllBWHg0NFlHMHc9PSIsInZhbHVlIjoiZlQ1QVNTZDhybmlENVZOK3FLK2xRaThHcHlndTBIb3VQZ1pzQVBkT3hYZnI0TkdqMW45VzUyeS9MelFQL2xjR1lGOVdRZHRhaUJ3TE9WTEN4cEFqZzJoQ2c0YzRjV214ZWFwakpRTGpiS1hYSnhzeU9mVjFURldUalowY1VSeW8iLCJtYWMiOiI2NjM0ODIzM2ZlZWI1MDc2OGYyNTZlZjk3MmRmYzQ5OGEzM2U5OTE4OTdlZjg4ODNhNGQ3YmViYjYyZjY4N2JhIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "Ira Humanitas",
+            "password": "onto"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:27:31",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160850,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IkNvSU9aKzdObDdjd3NTWXVUZ3Q1YVE9PSIsInZhbHVlIjoiajRpQlMxcFZGZFVhczVWYXhFa0dVVGFpc1dBZGRPUWRZaFlrVEhXMzZuZ1diUUxlcytFRjNBZlplcUVCUTl5d01WRm82M3FHdzZDS3pmSWN6MTZSMUxndnk4MnhuZkJkRXpOY2cweUQ5ZmxOT2FIang3ZVh0eW02dkpKQnkwN1AiLCJtYWMiOiI2MmVkY2NhMmEwODczMWQ0NjJjMzE4N2JiZTE0NWRkOTI2N2RkYzQ3NDY2ZTQ4ZTc5MGJkZmViZWJiZWZiOTIyIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160850,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IlM0Y01mYlEyejVWdllBWHg0NFlHMHc9PSIsInZhbHVlIjoiZlQ1QVNTZDhybmlENVZOK3FLK2xRaThHcHlndTBIb3VQZ1pzQVBkT3hYZnI0TkdqMW45VzUyeS9MelFQL2xjR1lGOVdRZHRhaUJ3TE9WTEN4cEFqZzJoQ2c0YzRjV214ZWFwakpRTGpiS1hYSnhzeU9mVjFURldUalowY1VSeW8iLCJtYWMiOiI2NjM0ODIzM2ZlZWI1MDc2OGYyNTZlZjk3MmRmYzQ5OGEzM2U5OTE4OTdlZjg4ODNhNGQ3YmViYjYyZjY4N2JhIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "price",
+            "password": "increase"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:27:31",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160850,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IkNvSU9aKzdObDdjd3NTWXVUZ3Q1YVE9PSIsInZhbHVlIjoiajRpQlMxcFZGZFVhczVWYXhFa0dVVGFpc1dBZGRPUWRZaFlrVEhXMzZuZ1diUUxlcytFRjNBZlplcUVCUTl5d01WRm82M3FHdzZDS3pmSWN6MTZSMUxndnk4MnhuZkJkRXpOY2cweUQ5ZmxOT2FIang3ZVh0eW02dkpKQnkwN1AiLCJtYWMiOiI2MmVkY2NhMmEwODczMWQ0NjJjMzE4N2JiZTE0NWRkOTI2N2RkYzQ3NDY2ZTQ4ZTc5MGJkZmViZWJiZWZiOTIyIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160850,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6IlM0Y01mYlEyejVWdllBWHg0NFlHMHc9PSIsInZhbHVlIjoiZlQ1QVNTZDhybmlENVZOK3FLK2xRaThHcHlndTBIb3VQZ1pzQVBkT3hYZnI0TkdqMW45VzUyeS9MelFQL2xjR1lGOVdRZHRhaUJ3TE9WTEN4cEFqZzJoQ2c0YzRjV214ZWFwakpRTGpiS1hYSnhzeU9mVjFURldUalowY1VSeW8iLCJtYWMiOiI2NjM0ODIzM2ZlZWI1MDc2OGYyNTZlZjk3MmRmYzQ5OGEzM2U5OTE4OTdlZjg4ODNhNGQ3YmViYjYyZjY4N2JhIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "Ira Humanitas",
+            "password": "1212123"
+        },
+        "Status": "Passed",
+        "Jenis Bug": "None",
+        "Prioritas": "Low",
+        "Tanggal/Waktu": "2025-01-29 19:28:05",
+        "Pesan Error": "",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "3.32 seconds",
+        "Ada Bug (False/True)": false,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "None",
+            "content": "",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160884,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6InFLMHNYRnRlV0M3QmQwWElMd014cEE9PSIsInZhbHVlIjoiQnFwRU1tRXQxQ1JOTEYxd1E4U1pJMFVRelVOWUd4MWsxbEUyMCs0RkN3OHp4em16QmZnUmRhTUNDNFV6M0psNDBwT1laSDd5S2ErMDVGVDR2WVovdFpQeXR2NUVUclU5YjZicUpkMDFUWXBHdWlUR3lONjdLbnRFOXZ5N0lBeTUiLCJtYWMiOiI2YjI3ZmViMTc5MmUxZDQ5MjI4ZDFlMTk4ZDUyZDMwMDhjYjhjZGRjZDU1ZTgyM2FlOWFhZmQ1Mzc3MmZkODAwIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160884,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImdieXlibGZWeXBEZzRwRU8ycjN3MWc9PSIsInZhbHVlIjoiVC9aZzVlNUUvRHhZdE5ta1BJNEJZbHNvV2YrZm1MZ3VjeXBpeVRBaEVQNWhrMlZGbXNnVXZLNXFmS2JDZGZnZ1ZUZzB5eDY4d3JIOXFLN1NuZExiaHZZeUdGYlZWcnJZOE5QL2JEODgwTUJVY2xoMTl1VmxMeStPY2tacU5oa2YiLCJtYWMiOiIyZjhhZjg0NDE0NTc0ZjUxZjgyYjg0ZGRjOWJlNzZjYTM3NzVlNmQ1ZTUxNzJkOTQxMTBlNzk2ZjZhZTkyMWYwIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "represent",
+            "password": "1212123"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:28:05",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160884,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6InFLMHNYRnRlV0M3QmQwWElMd014cEE9PSIsInZhbHVlIjoiQnFwRU1tRXQxQ1JOTEYxd1E4U1pJMFVRelVOWUd4MWsxbEUyMCs0RkN3OHp4em16QmZnUmRhTUNDNFV6M0psNDBwT1laSDd5S2ErMDVGVDR2WVovdFpQeXR2NUVUclU5YjZicUpkMDFUWXBHdWlUR3lONjdLbnRFOXZ5N0lBeTUiLCJtYWMiOiI2YjI3ZmViMTc5MmUxZDQ5MjI4ZDFlMTk4ZDUyZDMwMDhjYjhjZGRjZDU1ZTgyM2FlOWFhZmQ1Mzc3MmZkODAwIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160884,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImdieXlibGZWeXBEZzRwRU8ycjN3MWc9PSIsInZhbHVlIjoiVC9aZzVlNUUvRHhZdE5ta1BJNEJZbHNvV2YrZm1MZ3VjeXBpeVRBaEVQNWhrMlZGbXNnVXZLNXFmS2JDZGZnZ1ZUZzB5eDY4d3JIOXFLN1NuZExiaHZZeUdGYlZWcnJZOE5QL2JEODgwTUJVY2xoMTl1VmxMeStPY2tacU5oa2YiLCJtYWMiOiIyZjhhZjg0NDE0NTc0ZjUxZjgyYjg0ZGRjOWJlNzZjYTM3NzVlNmQ1ZTUxNzJkOTQxMTBlNzk2ZjZhZTkyMWYwIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "Ira Humanitas",
+            "password": "onto"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:28:05",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160884,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6InFLMHNYRnRlV0M3QmQwWElMd014cEE9PSIsInZhbHVlIjoiQnFwRU1tRXQxQ1JOTEYxd1E4U1pJMFVRelVOWUd4MWsxbEUyMCs0RkN3OHp4em16QmZnUmRhTUNDNFV6M0psNDBwT1laSDd5S2ErMDVGVDR2WVovdFpQeXR2NUVUclU5YjZicUpkMDFUWXBHdWlUR3lONjdLbnRFOXZ5N0lBeTUiLCJtYWMiOiI2YjI3ZmViMTc5MmUxZDQ5MjI4ZDFlMTk4ZDUyZDMwMDhjYjhjZGRjZDU1ZTgyM2FlOWFhZmQ1Mzc3MmZkODAwIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160884,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImdieXlibGZWeXBEZzRwRU8ycjN3MWc9PSIsInZhbHVlIjoiVC9aZzVlNUUvRHhZdE5ta1BJNEJZbHNvV2YrZm1MZ3VjeXBpeVRBaEVQNWhrMlZGbXNnVXZLNXFmS2JDZGZnZ1ZUZzB5eDY4d3JIOXFLN1NuZExiaHZZeUdGYlZWcnJZOE5QL2JEODgwTUJVY2xoMTl1VmxMeStPY2tacU5oa2YiLCJtYWMiOiIyZjhhZjg0NDE0NTc0ZjUxZjgyYjg0ZGRjOWJlNzZjYTM3NzVlNmQ1ZTUxNzJkOTQxMTBlNzk2ZjZhZTkyMWYwIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "price",
+            "password": "increase"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:28:05",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160884,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6InFLMHNYRnRlV0M3QmQwWElMd014cEE9PSIsInZhbHVlIjoiQnFwRU1tRXQxQ1JOTEYxd1E4U1pJMFVRelVOWUd4MWsxbEUyMCs0RkN3OHp4em16QmZnUmRhTUNDNFV6M0psNDBwT1laSDd5S2ErMDVGVDR2WVovdFpQeXR2NUVUclU5YjZicUpkMDFUWXBHdWlUR3lONjdLbnRFOXZ5N0lBeTUiLCJtYWMiOiI2YjI3ZmViMTc5MmUxZDQ5MjI4ZDFlMTk4ZDUyZDMwMDhjYjhjZGRjZDU1ZTgyM2FlOWFhZmQ1Mzc3MmZkODAwIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160884,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImdieXlibGZWeXBEZzRwRU8ycjN3MWc9PSIsInZhbHVlIjoiVC9aZzVlNUUvRHhZdE5ta1BJNEJZbHNvV2YrZm1MZ3VjeXBpeVRBaEVQNWhrMlZGbXNnVXZLNXFmS2JDZGZnZ1ZUZzB5eDY4d3JIOXFLN1NuZExiaHZZeUdGYlZWcnJZOE5QL2JEODgwTUJVY2xoMTl1VmxMeStPY2tacU5oa2YiLCJtYWMiOiIyZjhhZjg0NDE0NTc0ZjUxZjgyYjg0ZGRjOWJlNzZjYTM3NzVlNmQ1ZTUxNzJkOTQxMTBlNzk2ZjZhZTkyMWYwIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "Ira Humanitas",
+            "password": "1212123"
+        },
+        "Status": "Passed",
+        "Jenis Bug": "None",
+        "Prioritas": "Low",
+        "Tanggal/Waktu": "2025-01-29 19:28:35",
+        "Pesan Error": "",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "3.63 seconds",
+        "Ada Bug (False/True)": false,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "None",
+            "content": "",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160914,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImFrQWpSTFJlZDdubmtvYlVubm5CcWc9PSIsInZhbHVlIjoiSUNQRGc4YkZRSCt1Z1lLaTRQNVFBdExiWTBnRHRPV28rNGlCdWJDNFlqRXhoaGNkVFVCalpzSGNiSm0zdis5UEUvcDhNWVFuT3haNkpFUzNmUlgzM3lpSFU5UFg0VFFyV0Q1a2p5UkNxMkovYlA3aTFBMEZMZmJwNnBvcWlZYTgiLCJtYWMiOiI2N2ZkNzdjZGYxZGNhNTczYTA1MGZiMTJjZWM0MWRhODE5YWI1NGY5OGU2NzE5NzdiNWQwNDFiMmIwYTNlYjAwIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160914,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6InM1YjB1WEZ0U3FBVVNCMytuZnVLV3c9PSIsInZhbHVlIjoiTTAvb1JZNTNlVWc3UEFPT2IwK0xOZTdOTXVDak5OcVFSenhYS2JNMFV4RHRzQ3RZbjJqSHRCMGlMclkxRUp5MlVGTnJlSU0zSkxPc2xzYjhUNSsyQWV4SzQ4MmpBRlVCaWJLTVRJajRlUW01L2oxZk9mYTRIU3F2dC9VTFVzekYiLCJtYWMiOiI4MmM5YWRmZDQyZGExMmNiMDljNWU2Zjc4ZDU3ZDRmM2I5MjliZWMyN2MyNmQyNmNhZGQ4ZGQwM2UwMzUzNTdhIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "represent",
+            "password": "1212123"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:28:35",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160914,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImFrQWpSTFJlZDdubmtvYlVubm5CcWc9PSIsInZhbHVlIjoiSUNQRGc4YkZRSCt1Z1lLaTRQNVFBdExiWTBnRHRPV28rNGlCdWJDNFlqRXhoaGNkVFVCalpzSGNiSm0zdis5UEUvcDhNWVFuT3haNkpFUzNmUlgzM3lpSFU5UFg0VFFyV0Q1a2p5UkNxMkovYlA3aTFBMEZMZmJwNnBvcWlZYTgiLCJtYWMiOiI2N2ZkNzdjZGYxZGNhNTczYTA1MGZiMTJjZWM0MWRhODE5YWI1NGY5OGU2NzE5NzdiNWQwNDFiMmIwYTNlYjAwIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160914,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6InM1YjB1WEZ0U3FBVVNCMytuZnVLV3c9PSIsInZhbHVlIjoiTTAvb1JZNTNlVWc3UEFPT2IwK0xOZTdOTXVDak5OcVFSenhYS2JNMFV4RHRzQ3RZbjJqSHRCMGlMclkxRUp5MlVGTnJlSU0zSkxPc2xzYjhUNSsyQWV4SzQ4MmpBRlVCaWJLTVRJajRlUW01L2oxZk9mYTRIU3F2dC9VTFVzekYiLCJtYWMiOiI4MmM5YWRmZDQyZGExMmNiMDljNWU2Zjc4ZDU3ZDRmM2I5MjliZWMyN2MyNmQyNmNhZGQ4ZGQwM2UwMzUzNTdhIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "Ira Humanitas",
+            "password": "onto"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:28:35",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160914,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImFrQWpSTFJlZDdubmtvYlVubm5CcWc9PSIsInZhbHVlIjoiSUNQRGc4YkZRSCt1Z1lLaTRQNVFBdExiWTBnRHRPV28rNGlCdWJDNFlqRXhoaGNkVFVCalpzSGNiSm0zdis5UEUvcDhNWVFuT3haNkpFUzNmUlgzM3lpSFU5UFg0VFFyV0Q1a2p5UkNxMkovYlA3aTFBMEZMZmJwNnBvcWlZYTgiLCJtYWMiOiI2N2ZkNzdjZGYxZGNhNTczYTA1MGZiMTJjZWM0MWRhODE5YWI1NGY5OGU2NzE5NzdiNWQwNDFiMmIwYTNlYjAwIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160914,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6InM1YjB1WEZ0U3FBVVNCMytuZnVLV3c9PSIsInZhbHVlIjoiTTAvb1JZNTNlVWc3UEFPT2IwK0xOZTdOTXVDak5OcVFSenhYS2JNMFV4RHRzQ3RZbjJqSHRCMGlMclkxRUp5MlVGTnJlSU0zSkxPc2xzYjhUNSsyQWV4SzQ4MmpBRlVCaWJLTVRJajRlUW01L2oxZk9mYTRIU3F2dC9VTFVzekYiLCJtYWMiOiI4MmM5YWRmZDQyZGExMmNiMDljNWU2Zjc4ZDU3ZDRmM2I5MjliZWMyN2MyNmQyNmNhZGQ4ZGQwM2UwMzUzNTdhIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "URL": "http://127.0.0.1:8000/login",
+        "Metode Pengujian": "Login",
+        "Input Pengguna": {
+            "name": "price",
+            "password": "increase"
+        },
+        "Status": "Failed",
+        "Jenis Bug": "Element Not Found",
+        "Prioritas": "Critical",
+        "Tanggal/Waktu": "2025-01-29 19:28:35",
+        "Pesan Error": "Selector name dengan jenis name tidak ditemukan.",
+        "Fungsi/Modul": "Login Page",
+        "Durasi Pengujian": "0.01 seconds",
+        "Ada Bug (False/True)": true,
+        "Expected Result": "Berpindah ke halaman http://127.0.0.1:8000/super-admin/dashboard",
+        "log": {
+            "type": "ErrorMessage",
+            "content": "Selector name dengan jenis name tidak ditemukan.",
+            "details": {
+                "actual_url": "http://127.0.0.1:8000/super-admin/dashboard",
+                "expected_error_message": "",
+                "page_source": "<html lang=\"en\"><head>\n  \t<title>PPDB SMKN 1 Cimahi</title>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css\">\n\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.cs",
+                "cookies": [
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160914,
+                        "httpOnly": true,
+                        "name": "laravel_session",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6ImFrQWpSTFJlZDdubmtvYlVubm5CcWc9PSIsInZhbHVlIjoiSUNQRGc4YkZRSCt1Z1lLaTRQNVFBdExiWTBnRHRPV28rNGlCdWJDNFlqRXhoaGNkVFVCalpzSGNiSm0zdis5UEUvcDhNWVFuT3haNkpFUzNmUlgzM3lpSFU5UFg0VFFyV0Q1a2p5UkNxMkovYlA3aTFBMEZMZmJwNnBvcWlZYTgiLCJtYWMiOiI2N2ZkNzdjZGYxZGNhNTczYTA1MGZiMTJjZWM0MWRhODE5YWI1NGY5OGU2NzE5NzdiNWQwNDFiMmIwYTNlYjAwIiwidGFnIjoiIn0%3D"
+                    },
+                    {
+                        "domain": "127.0.0.1",
+                        "expiry": 1738160914,
+                        "httpOnly": false,
+                        "name": "XSRF-TOKEN",
+                        "path": "/",
+                        "sameSite": "Lax",
+                        "secure": false,
+                        "value": "eyJpdiI6InM1YjB1WEZ0U3FBVVNCMytuZnVLV3c9PSIsInZhbHVlIjoiTTAvb1JZNTNlVWc3UEFPT2IwK0xOZTdOTXVDak5OcVFSenhYS2JNMFV4RHRzQ3RZbjJqSHRCMGlMclkxRUp5MlVGTnJlSU0zSkxPc2xzYjhUNSsyQWV4SzQ4MmpBRlVCaWJLTVRJajRlUW01L2oxZk9mYTRIU3F2dC9VTFVzekYiLCJtYWMiOiI4MmM5YWRmZDQyZGExMmNiMDljNWU2Zjc4ZDU3ZDRmM2I5MjliZWMyN2MyNmQyNmNhZGQ4ZGQwM2UwMzUzNTdhIiwidGFnIjoiIn0%3D"
+                    }
+                ]
+            }
+        }
+    }
+]
